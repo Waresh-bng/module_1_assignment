@@ -17,11 +17,11 @@
         <label for="">Test Score 3:</label>
         <input type="number" placeholder="Test Score 3" name="score3" required><br><br>
 
-        <input type="submit" name="calculate" value="result"><br><br>
+        <input type="submit" name="calculate1" value="result"><br><br>
     </form>
 
     <?php
-    if (isset($_POST['calculate'])) {
+    if (isset($_POST['calculate1'])) {
         // Get the test scores from the form
         $score1 = $_POST['score1'];
         $score2 = $_POST['score2'];
